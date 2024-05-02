@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="w3.css">
+    <title>Document</title>
+    <!-- Internal CSS styles -->
+    <style>
+        /* Styling for header and footer */
+        header, footer {
+            background-color: #147594; 
+            color: white; 
+        }
+
+        /* Styling for the navigation bar */
+        .w3-bar {
+            background-color: #147594; 
+        }
+
+        /* Styling for buttons */
+        .w3-button {
+            background-color: #70b1fa ; 
+        }
+
+        /* Styling for cards */
+        .w3-card {
+            background-color: #fff; 
+        }
+
+        /* Styling for buttons */
+        button {
+            background-color: #147594; 
+            color: white; 
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        
+        /* Styling for button hover */
+        button:hover {
+            background-color: #0c4f6b; 
+        }
+
+        /* Styling for images */
+        img {
+            border-radius: 50%; 
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header section -->
+    <header class="w3-container w3-center w3-lightblue w3-padding-32">
+        <h1>CV</h1>
+        <p>Welcome to My Personal Website</p>
+    </header>
+
+    <!-- Navigation bar -->
+    <div class="w3-bar w3-lightblue">
+        <a href="#home" class="w3-bar-item w3-button">Home</a>
+        <a href="#about" class="w3-bar-item w3-button">About</a>
+        <a href="#skills" class="w3-bar-item w3-button">Skills</a>
+        <a href="#education" class="w3-bar-item w3-button">Education</a>
+        <a href="#employment" class="w3-bar-item w3-button">Employment</a>
+        <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+
+    </div>
+
+    <!-- This section is for home  -->
+    <div style="min-height:100vh;overflow-y:auto;">
+        <div class="w3-container w3-row w3-card w3-margin" id="home">
+            <div class="w3-container w3-third w3-padding">
+                <img src="lkss.jpg" style="height:100%; max-width: 100%;">
+            </div>
+            <div class="w3-container w3-twothird">
+                <p style="font-size: 20px; margin-bottom: 10px; color: #000;">Hello I'M</p>
+                <p style="font-size: 30px; font-weight: bold; margin-bottom: 10px; color: #000;">LEE KIEN SOON</p>
+                <p style="font-size: 16px; color: #000;">IT student majoring in data science</p>
+            </div>
+        </div>
+
+        <!-- This section is for about me -->
+        <div class="w3-container w3-row w3-card w3-margin" id="about">
+            <h3><b>About Me</b></h3>
+            <div class="w3-container w3-twothird">
+                <!-- Personal information -->
+                <p style="font-size: 20px; margin-bottom: 10px; color: #000;">Greetings! 
+                    I'm currently pursuing my studies in the field of Information Technology at 
+                    University Utara Malaysia (UUM).</p>
+                <p style="font-size: 20px; color: #000;">Name: LEE KIEN SOON</p>
+                <p style="font-size: 20px; color: #000;">Age: 23</p>
+                <p style="font-size: 20px; color: #000;">Email: kiensoon9630@gmail.com</p>
+                <p style="font-size: 20px; color: #000;">Phone: 011-16301388</p>
+                <p style="font-size: 20px; color: #000;">Date of Birth: 30 April 2001</p>
+                <p style="font-size: 20px; color: #000;">Address: 12 Persiaran Kledang Timur 16 Bandar Baru Menglembu
+                    31450 Ipoh Perak</p>
+            </div>
+        </div>
+
+        <!-- This section is for skill -->
+        <div class="w3-container w3-row w3-card w3-margin" id="skills">
+            <h3><b>Skills</b> </h3>
+            <div class="w3-container w3-row w3-padding" style="margin:auto;">
+                <div class="w3-card w3-container w3-col" 
+            style= "max-width:350px;height:250px;margin:10px;;text-align: justify;">
+                <h4><b>Programming</b></h4>
+                <p>Proficiency in programming languages like Python, R, or SQL to manipulate, 
+                    analyze, and visualize data.</p>
+            </div>
+            <div class="w3-card w3-container w3-col" 
+            style= "max-width:350px;height:250px;margin:10px;;text-align: justify;">
+                <h4><b>Data Visualization</b></h4>
+                <p>Represent data graphically to provide insights and communicate findings effectively.
+                Appropriate charts, graphs, and visualization techniques will be chosen to present data in a clear 
+                and understandable manner.
+                </p>
+
+            </div>
+            <div class="w3-card w3-container w3-col" 
+            style= "max-width:350px;height:250px;margin:10px;;text-align: justify;">
+                <h4><b>Critical Thinking</b></h4>
+                <p>Proficiency in analyzing and evaluating information objectively to form reasoned judgments
+                and make decisionss</p>
+
+            </div>
+            <div class="w3-card w3-container w3-col" id="skill4" style="display:none; 
+            max-width:350px;height:250px;margin:10px;;text-align: justify;">
+                <h4><b>Problem Solving</b></h4>
+                <p>Identify issues, develop hypotheses, and devise effective strategies to address them</p>
+            </div>
+            <div class="w3-card w3-container w3-col" id="skill5" style="display:none; 
+            max-width:350px;height:250px;margin:10px;;text-align: justify;">
+                <h4><b>Time Management</b></h4>
+                <p>Allocates time and resources to complete tasks and meet deadlines, ensures that projects
+                progress smoothly and balance multiple tasks</p>
+            </div>
+            <div class="w3-card w3-container w3-col" id="skill6" style="display:none; 
+            max-width:350px;height:250px;margin:10px;;text-align: justify;">
+                <h4><b>Machine Learning</b></h4>
+                <p>Building models and algorithms that learn from data to make predictions and uncover patterns,
+                trends, and insights from large datasets</p>
+            </div>
+            <div class="w3-container w3-center" style="width:100%;">
+                <button onclick="toggleSkills()">Show More</button>
+            </div>
+            </div>
+            
+        </div>
+
+        <!-- This section is for education -->
+        <div class="w3-container w3-row w3-card w3-margin" id="education">
+            <h3><b>Education</b> </h3>
+            <div class="w3-container w3-row w3-padding" style="margin:auto;">
+                <div class="w3-card w3-container w3-col" 
+            style= "max-width:350px;height:200px;margin:10px;;text-align: justify;">
+                <h4><b>SMK Seri Keledang</b></h4>
+                <p>SPM (5A2B2C1D)</p>
+                <p>2013-2018</p>
+            </div>
+            <div class="w3-card w3-container w3-col" 
+            style= "max-width:350px;height:200px;margin:10px;;text-align: justify;">
+                <h4><b>SMK Menglembu</b></h4>
+                <p>STPM (3.50) </p>
+                <p>2019-2021</p>
+            </div>
+            <div class="w3-card w3-container w3-col" 
+            style= "max-width:350px;height:200px;margin:10px;;text-align: justify;">
+                <h4><b>University Utara Malaysia</b></h4>
+                <p>Bachelor of Information Technology (3.8)</p>
+                <p>2021-2024</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- This section is for employment -->
+        <div class="w3-container w3-row w3-card w3-margin" id="employment">
+            <h3><b>Employment</b> </h3>
+            <div class="w3-container w3-row w3-padding" style="margin:auto;">
+                <div class="w3-card w3-container w3-col" 
+            style= "max-width:350px;height:200px;margin:10px;;text-align: justify;">
+                <h4><b>NORMA MALAYSIA SDN. BHD</b></h4>
+                <h6>Packing Worker</h6>
+                <p>2018-2019</p>
+            </div>
+            <div class="w3-card w3-container w3-col" 
+            style= "max-width:350px;height:200px;margin:10px;;text-align: justify;">
+                <h4><b>JUN JAPANESE CUISINE</b></h4>
+                <h6>Waiter</h6>
+                <p>2019-2020</p>
+            </div>
+            <div class="w3-card w3-container w3-col" 
+            style= "max-width:350px;height:200px;margin:10px;;text-align: justify;">
+                <h4><b>AEON CO. (M) BHD.</b></h4>
+                <h6>Promoter</h6>
+                <p>2023-2024</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- This section is for contact -->
+        <div class="w3-container w3-row w3-card w3-margin" id="contact">
+            <h3><b>Contact</b></h3>
+            <div class="w3-container w3-twothird">
+                <div style="display: flex; align-items: center;">
+                    <img src="phoneee.jpg" style="height: 60px; max-width: 60px;">
+                    <p style="font-size: 20px; color: #000; margin-left: 10px;">011-16301388</p>
+                </div>
+                <div style="display: flex; align-items: center;">
+                    <img src="email.png" style="height: 60px; max-width: 60px;">
+                    <p style="font-size: 20px; color: #000; margin-left: 10px;">kiensoon9630@gmail.com</p>
+                </div>
+                <div style="display: flex; align-items: center;">
+                    <img src="facebook.jpg" style="height: 60px; max-width: 60px;">
+                    <p style="font-size: 20px; color: #000; margin-left: 10px;">https://www.facebook.com/lee.kiensoon</p>
+                </div>
+                <div style="display: flex; align-items: center;">
+                    <img src="ig.png" style="height: 60px; max-width: 60px;">
+                    <p style="font-size: 20px; color: #000; margin-left: 10px;">https://www.instagram.com/leeks_0430/</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer section -->
+    <footer class="w3-container w3-center w3-lightblue">
+        <p>Copyright LKS&copy</p>
+    </footer>
+
+     <!-- JavaScript to handle smooth scrolling and toggle skills display -->
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Function to toggle display of additional skills
+        function toggleSkills() {
+            var skills = document.querySelectorAll('#skill4, #skill5, #skill6');
+            for (var i = 0; i < skills.length; i++) {
+                if (skills[i].style.display === "none") {
+                    skills[i].style.display = "block";
+                } else {
+                    skills[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
